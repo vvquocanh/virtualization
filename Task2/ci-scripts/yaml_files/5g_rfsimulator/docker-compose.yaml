@@ -16,8 +16,6 @@ services:
             interval: 10s
             timeout: 5s
             retries: 30
-        ports:
-            - 3306
         networks:
             public_net:
                 ipv4_address: 192.168.71.131
